@@ -1,0 +1,1361 @@
+{"intents": [
+  {"tag": "greeting",
+  "patterns": ["Hi",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day","Hi there", "Hi you",
+              "Hola","Hey","Good morning",
+              "Good Evening","hey","how are","How are you doing","Good afternoon","Good day","how are ya",                    
+              "heyy",
+              "whatsup"],
+  "responses": ["Welcome to Our Chatbot","Hello", "thanks for visiting",
+              "Good to see you again",
+              "Hi there, how can I help?",
+              "Hey, I’m so happy to see you again.",
+              "What have you been up to?"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["Bye", 
+              "See you later", 
+              "Goodbye",
+              "Nice chatting to you", 
+              "Till next time",
+              "Bye bot",
+              "Have a good day",
+              "farewell",
+              "Take Care","Bye bot",
+              "Be Seeing You",
+              "See You Soon","I See you next term",
+              "I see you next semester",
+              "I see you next year"],
+  "responses": ["See you later, thanks for visiting",
+               "Have a nice day",
+                "Bye! Come back again soon.",
+                "Peace",
+                "Peace Out",
+                "Catch you later"]
+  },
+  {"tag": "thanks",
+  "patterns": ["Thanks",
+              "Thank you", 
+              "That's helpful",
+              "Thanks for helping me",
+              "Much Obliged",
+              "alot of thanks",
+              "many thanks",
+              "I want to thank you",
+              "I couldn’t have done it without you",
+              "Thanks for having my back",
+              "I owe a thank you",
+              "Thanks for being such a star",
+              "This means a lot to me",
+              "Thanks for following",
+              "your help made me happy",
+              "following you made me happy",
+              " I really appreciate it"],
+  "responses": ["Happy to help!",
+              "Any time!",
+              "My pleasure",
+              " Glad to help",
+              "Don’t mention it",
+              "it’s no bother at all",
+              "I am glad to help you",
+              "It was the least I could do"]
+  },
+  {"tag": "hours_bot",
+  "patterns": ["What hours are you open?",
+              "What are your hours?", 
+              "When are you open?",
+              "Exist for how long?",
+              "Are you open now?",
+              "When do you open?",
+              "how much do you work",
+              "work hours?",
+              "When will your work start?",
+              "Are you working this week?",
+              "Per day how many hours you are working" ,
+              "Are you work all-day",
+              "Are you online now?",
+              "Are you available?","Available?",
+              "Available now?" ],
+  "responses": ["We're open every day 24/7",
+              "We're always open ",
+              "Happy to help! Any other issues?",
+              "I am open all days of the week",
+              "Always exists",
+              "Always present"]
+  },
+  {"tag": "opentoday",
+  "patterns": ["Are you open today?", 
+              "When do you open today?", 
+              "What are your hours today?",
+              "Does it exist today?",
+              "Is it available today to come?",
+              "From when to when the university opens?"],
+
+  "responses": ["We're open every day for 24 hours available",
+               " 24 hours  every day",
+               "We are open 24 hours"]
+  },
+  {"tag": "noanswer",
+  "patterns": ["a","b","c","d","e","f","j","h","i","g","k","l","m","n","o",
+               "p","q","r","s","t","u","v","w","x","y","z", "random"],
+  "responses": ["Sorry, can't understand you",
+              "What does that mean?",
+              "explain please!",
+              "more clarification..!",
+              "what do you mean by that?",
+              "I do not understand what you say..!"]
+  
+  },
+  {
+    "tag":"admission",
+    "patterns":[
+      "When is the VIT admission",
+      "VITEEE Date",
+      "VIT Entrance Exam Date",
+      "Date of VIT Entrance Exams",
+      "VITEEE Exam Date",
+      "When does the application for VITEEE Exam start",
+      "Time Line for V.I.T Entrance Exam",
+      "Phases of VIT Entrance exam",
+      "VIT Entrance timmeline",
+      "Complete date and timeline for VITEEE Exam",
+      "Complete date and timeline for entrance exam"
+    ],
+    "responses":[
+      "The Release of applications form start from November 30.\n The last date for submission of the application form is May 21.\n The slot booking starts from May 14 to May 22.\n The Release of Admit Card will start once the test slots are booked.\n The mock test phase-I is from May 20 to May 22.\n The mock test phase-II will start from May 24 to May 26.\n The Date of the Examination is from May 28 to May 31.\n The announcemnt of the results is on June 12. The VITEEE councelling will start from June 21.\n The classes will commence on August 2"
+    ]
+  },
+  {
+    "tag": "admission_eligibility",
+    "patterns":[
+      "What are the eligibility criteria",
+      "Who can apply to vit university",
+      "Can i apply to vit university",
+      "Minimum marks required for admission",
+      "Minimum marks required",
+      "Age restrictions on admission",
+      "Can i apply if I am 25 years old.",
+      "How old do you have to to apply",
+      "Marks required for entrance",
+      "What are the nationality requirements",
+      "Can a foreign citizen apply to VIT university",
+      "Nationality requirements",
+      "NRI requiremnts",
+      "Non-resident Indian requirements"
+    ],
+    "responses":[
+      "Candidates who wish to appear in VITEEEE 2022 must ensure that they satisfy VITEEEE Eligibility Criteria as stated by the Vellore Institute of Technology.\n Nationality: Indian Nationals/ NRI/ PIO/ OCI holders.\n Qualification Exam: 10+2.\n Minimum Marks: Minimum aggregate score of 60% in Physics, Chemistry, Mathematics or Biology (PCM/ PCB) in Class 12 or equivalent exam.\n Age: Born on or after July 1, 1999.\n  Note: NOTE: Candidates belonging to Jammu & Kashmir, North Indian states or SC/ST category will have to score an aggregate of 50% in Chemistry, Physics and Mathematics/Biology in Class 12. Also, Class 12 appearing students can also apply for the exam."
+    ]
+  },
+  {
+    "tag":"Admission_Application_Process",
+    "patterns":[
+      "What is the application procees",
+      "VITEEE application process",
+      "Entrance application process",
+      "Modes of entrance",
+      "Modes of entrance registration",
+      "Entrance exam registration",
+      "VITEEE registration",
+      "How to register for VITEEE exams",
+      "Register for VITEEE exmas"
+    ],
+    "responses":[
+      "Eligible candidates can complete VITEEE Application Form in both online and offline mode depending on their convenience. Interested students can visit the official website- vit.ac.in. to fill the online forms. And the ones who are applying offline must collect the application forms from VIT campuses.\n VITEEE-Online Mode:\n The online application forms will be available on the official website of VIT University. Online registration  includes few steps listed below:\n 1. Visit the official website of Vellore Institute of Technology – vit.ac.in.\n 2.Complete the registration process and confirm the application number and password via valid email ID and password. \n 3. Fill the VITEEE 2022 Application form and make the payment via NET Banking/Credit card/Debit card/ Paytm.\n 4. Once that is done, download the application form for future reference.\n\n VITEE - Offline Mode: \n 1.Eligible candidates can apply online or offline (application form from the VIT campuses). Once you fill the application, it should reach the University by registered post or speed post.\n 2. Admission Officer, VIT University, Vellore – 632014 Tamil Nadu, India.\n"
+    ]
+  },
+  {
+    "tag":"application fee",
+    "patterns":[
+      "What is the entrance application fee",
+      "Cost of application",
+      "Application fees",
+      "VITEEE application fees",
+      "VITEEE Cost",
+      "VITEEE price"
+    ],
+    "responses":[
+      "Offline Application: NR 1200 + 50 (DD)\n Online Application: INR 1150.\n For NRI’s: USD 50"
+    ]
+  },
+  {
+    "tag": "VITEE Booking",
+    "patterns":[
+      "How to Book the VITEEE Exam",
+      "VITEEE Booking",
+      "Book Entrance exam",
+      "How to book the entrance exam",
+      "Booking VITEE",
+      "Booking the entrance exam"
+    ],
+    "responses":[
+      "VITEEE exam is held for several days and slots and the candidate can book a slot on a particular day as per his/her convenience. The  slot booking  can be done in OTBS (Online Test Booking System) and VIT will open it on a date which will be notified soon. Various options for the selection of VITEEE 2022 Exam Centers will be available there.\nProcedure to book your exam center and slot:\nStep 1: visit the official website – vit.ac.in. Click on “Book a seat.\n Step 2: Select your preferred state and city for the test.\n Step 3: choose the test center and time slot as per your convenience.\n Step 4: Click on Book to confirm the slot booking.\n\n Note For Students:\n VITEEE Slot Booking is done on the basis of first come first serve. VITEEE OTBS 2022 is a real-time application; therefore, the booking window will be open for 1 minute and the candidates must fill in all the particulars in that allotted time period only. Slot booking can be done only once. Further changes cannot be made."
+    ]
+  },
+  {
+    "tag": "VITEEE Admit Card",
+    "patterns":[
+      "Admit card",
+      "Information about admit card",
+      "What is VIT Entrance admit card"
+    ],
+    "responses":[
+      "Once the candidates book their exam slot online, VITEEE 2022 admit card will be released immediately.\n To book slots, the candidates will have to log in to the online test booking system with the help of the application number and online test booking password.\n Every candidate receives the online test booking password via E-mail.\n The  Admit card contains all the important exam details including the Date, time, roll no. etc.\n It is mandated for the candidate to carry the admit card at the time of their examination.\n Candidates won’t be allowed to appear for the exam without a valid admit card."
+    ]
+  },
+  {
+    "tag": "VITEE Exam General Pattern",
+    "patterns": [
+      "What is the entrance exam pattern",
+      "VITEEE pattern",
+      "VITEEE entrance patterns",
+      "Entrance exam pattern",
+      "What is the marking scheme in VITEEE",
+      "Marking scheme in VITEEE",
+      "Marking scheme in Entrance exam",
+      "Is there negative marking",
+      "What about negative marking",
+      "How many slots are there in entrance exam",
+      "Slots avaiable in VITEEE",
+      "How many question in VITEEE",
+      "How many total questions in entrance exam",
+      "Total number of questions in VITEEE",
+      "Subjects in VITEEE",
+      "What subjects are there in entrance exam",
+      "Total number of subjects in the entrance exam",
+      "Subjects in VITEEE",
+      "Will there be Enhlish in VITEEE",
+      "Will there be biology in VITEEE"
+    ],
+    "responses":[
+      "The paper consists of 5 sections including the newly added Aptitude section having 3 questions. It is very important for the candidates to know the VITEEE 2022 Exam Pattern as it will guide them well for the exam.\n Mode of Exam: Online.\n Exam Duration: 90 minutes.\n Language: English\n Paper type: MCQ \n Total Number of Questions: 80 \n Sectional subjects: Physics, Chemistry, Mathematics/Biology, Aptitude and English subjects. \n Slots: exam will be structured in 3 sessions each day. \n Marking scheme: each right answer will fetch you 1 mark.\n Negative marking: there is no negative marking."
+    ]
+  },
+  {
+    "tag": "VITEEE section wise pattern",
+    "patterns":[
+      "What are the section wise pattern",
+    "Section wise patterns",
+    "how many questions in each subject",
+    "total number of question in each subject",
+    "number of questions",
+    "duration of the exam",
+    "How long is the exam",
+    "How long for each section",
+    "Time for each section"
+  ],
+    "responses":[
+      "Physics:\n Number of questions: 25\n Maximum Marks: 25\n\n Chemistry:\n Number of questions: 25\n Maximum Marks: 25\n\n Mathematics/Biology:\n Number of questions: 25\n Maximum Marks: 25\n\n Aptitude:\n Number of questions: 3\n Maximum Marks:3 \n\n English:\n Number of questions: 2\n Maximum Marks: 3\n\n The total time allocated to complete all the questions is 90 minutes."
+    ]
+  },
+  {
+    "tag": "VITEEE syllabus",
+    "patterns":[
+      "What is the syllabus for VITEEE",
+      "Syllabus for VITEEE",
+      "What is the syllabus for entracne exam",
+      "Entrance exam syllabus",
+      "Syllabus for the entrance exam"
+    ],
+    "responses":[
+      "Please vist the following link for complete syllabus: https://collegedunia.com/exams/viteee/syllabus"
+    ]
+  },
+  {"tag": "University",
+  "patterns": ["Where is the link for the university site?",
+              "The link for the university site?",
+              "Can you give me the university site?",
+              "Give me the university site?",
+              "The university site?","university site is?",
+              "The university link site please",
+              "What is the website of the university?"],
+  "responses": ["https://vit.ac.in/",
+              "Our university site is https://vit.ac.in/ ",
+              "The university site is https://vit.ac.in/ ",
+              "The site of the university is https://vit.ac.in/  ",
+              "The site of our university is  https://vit.ac.in/ ",
+              "You can follow this link https://vit.ac.in/  to enter the university website",
+              "You can follow this link https://vit.ac.in/  to enter to our university website",
+              "That's our site https://vit.ac.in/",
+              "You could follow this link https://vit.ac.in/",
+              "The site of our university https://vit.ac.in/",
+              "That's our site https://vit.ac.in/"]
+  },
+  {"tag": "address",
+  "patterns": ["Where is the university address?",
+              "Give me the address, please? ",
+              "Give me the university address, please? ",
+              "Send me the university address, please? ",
+              "Send me the address of the university, please ?",
+              "What's the address?",
+              "What's the university address?",
+              "The address, please",
+              "The university address, please",
+              "University address is?",
+              "Where is the university location?",
+              "Where is your location?",
+              "Where is the location of your university?",
+              "What's the university address?",
+              "where is the college located",
+              "college is located at",
+              "where is college",
+              "where is college located",
+              "address of college",
+              "how to reach college",
+              "college location",
+              "college address",
+              "wheres the college",
+              "how can I reach college",
+              "whats is the college address",
+              "what is the address of college",
+              "address",
+              "location"],
+  "responses": ["VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+              "Our address is VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+              "Our university address is VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+              "That's our address VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+              "That's our university address VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+              "You Could visit us at this address VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India"]
+  },
+  {"tag": "email",
+  "patterns": ["What is your Email Address? ",
+              "Give me the Email Address?",
+              "There is an Email address for the university?",
+              "E-mail address is?",
+              "Where's the email address?"
+              ],
+  "responses": ["ugadmission@vit.ac.in"]
+  },
+  {"tag": "info_acceptance",
+  "patterns": ["How long is the period between application and acceptance? ",
+              "What is the duration of admission?",
+              "What is the duration for acceptance?","What is the period between application and registration at the university?",
+              "Registration a month after submitting the application?",
+              "Registration a week after submitting the application",
+              "What is the duration of admission after registering at the university and withdrawing the application?",
+              "How long is the period for admission ?",
+              "what is the process of admission",
+              "what is the admission process",
+              "How to take admission in your college",
+              "What is the process for admission",
+              "admission",
+              "admission process"],
+  "responses": ["There is no specific period, but it will not be less than the passage of a full year ... The more the application is complete and the conditions are available, the greater the chance of acceptance."]
+  },
+
+  {
+  "tag": "credit_hour",
+  "patterns": ["What is the credit hour? ",
+              "What is the credit hour in your university? ",
+              "What is the credit hour in the university? ",
+              "Is there is a credit hour?",
+              "Is there is a credit hour in your university?",
+              "Is there is a credit hour in the university?",
+              "Tell me about credit",
+              "Tell me about credit in your university",
+              "Tell me about credit in the university",
+              "What is the credit hour?",
+              "What is the credit hour in your university?",
+              "What is the credit hour in the university?",
+              "What is the credit hour system?",
+              "What is the credit hour system in your university?",
+              "What is the credit hour system in the university?",
+              "How are the credit hour divided?",
+              "I am asking about credit hour in the university?",
+              "I am asking about credit hour in your university?",
+              "I am asking about credit hour "],
+  "responses": ["The credit hour is the weight of the subject, and if the course is three credit hours, then this means that the student must attend the course lecture three hours per week throughout the regular semester."]
+  },
+  {
+  "tag": "Course_Schedule",
+  "patterns": ["How to register the course schedule in the university ? ",
+              "How to register the course schedule in your university ? ",
+              "i ask for register the course schedule ?",
+              "i ask for register the course schedule in the university ?",
+              "i ask for register the course schedule in your university ?",
+              "ability to register the course schedule?",
+              "ability to register the course schedule in your university",
+              "ability to register the course schedule in the  university",
+              "Wrong to register the course schedule",
+              "i need to register for the course schedule please?"
+              ],
+  "responses": ["Through the electronic registration services available on the university's website: vtop.vit.ac.in , where the student enters his university number, in addition to his own password. For a student who cannot be registered through the electronic registration services because of his low GPA, and other reasons, he must refer to the Admission and Registration Department."]
+  },
+  
+  {
+  "tag": "pre-requisite",
+  "patterns": ["What is a pre-requisite? ",
+              "tell me about the pre-requisite",
+              "give me the information about the pre-requisite?",
+              "there is a pre-requisite",
+              "i ask for the pre-requisite",
+              "i need to know the pre-requisite"],
+  "responses": ["It is the subject that students are required to pass before they study the next subject."]
+  },
+  {
+  "tag": "info_Exams",
+  "patterns": ["What happens when you miss the final exam? ",
+              "What are the consequences of not taking the last exam?",
+              "What happens if not taking the final exam?",
+              "What happens if I miss the final test?",
+              "What happens if I miss the final exam?",
+              "What happens if I miss the  exam?",
+              "What happens if I miss a test?",
+              "What happens if I miss it one test?",
+              "What happens if I miss it one exam?",
+              "What is the effect of not taking the exam?"],
+  "responses": ["The total of what you got from the pre-final exam marks is recorded for you, and in the event that you submit an excuse accepted by the Dean of the College within three days of the date of the exam, then you will record an incomplete mark, and you can apply for the final exam again, up to the end of the third week of the immediately following semester ."]
+  },
+  {
+  "tag": "bachelor_program",
+  "patterns": ["Is it possible to study some subjects at another university? ",
+              "what about the bachelor program?",
+              "it's available to study at another university?",
+              "Can I study some subjects at another university?",
+              "you allow to me to study some subjects at another university?",
+              "if i studed some subject at another universty you accept it ",
+              "i ask about the hours at the univesity?",
+              "what is the program of the university?"],
+  "responses": ["There are various Semester abroad programmes available."]
+  },
+  {
+  "tag": "postponement",
+  "patterns": ["Is it permissible to postpone studying at the university? ",
+              "i need to postpone the studying",
+              "Is it permissible to relay the university?",
+              "Is it permissible to relay the first semester at university?",
+              "Is it permissible to relay a year at university?",
+              "postpone studying"],
+  "responses": ["(Bachelor's program students): A student may postpone their studies at the university for a period not exceeding six semesters, whether continuous or separate. A new or transferred student is not allowed to postpone his studies, except after the end of one semester of joining the university.", "(Master's program students): A student may postpone his studies at the university for a period not exceeding two academic semesters, connected or separate. A new student or transferring to the university is not allowed to postpone his studies, except after the end of a full semester of joining the university."]
+  },
+  
+  {
+  "tag": "Creation",
+  "patterns": ["When the university was established?",
+              "What is the founding date of the university?",
+              "What is the date of establishment of the university?",
+              "What is the date of establishment of the vit university?",
+              "When vit university was build?",
+              "When the university was build?"],
+  "responses": ["It was established under Section 3 of the University Grants Commission (UGC) Act, 1956, and was founded in 1984 as a self-financing institution called the Vellore Engineering College. The Union Ministry of Human Resources Development conferred University status on Vellore Engineering College in 2001. The University is headed by its founder and Chancellor, Dr. G. Viswanathan, a former Parliamentarian and Minister in the Tamil Nadu Government. In recognition of his service to India in offering world class education, he was conferred an honorary doctorate by the West Virginia University, USA. Mr.Sankar Viswanathan, Dr.Sekar Viswanathan and Mr.G.V. Selvam are the Vice-Presidents; Dr. Rambabu Kodali is the Vice-Chancellor and Dr. S. Narayanan is the Pro-Vice-Chancellor."]
+  },
+
+  {
+  "tag": "buildings",
+  "patterns": ["How many buildings are in the university?",
+              "How many buildings are there in vit University?",
+              "How many university buildings are there?",
+              "How many vit university buildings ?",
+              "How many buildings does vit have?",
+              "How many buildings are in vit university?"],
+  "responses": ["Infrastructure: VIT campus is spread across a vast area of 372 acres. The remarkable aspect of VIT is the state-of-the-art infrastructure provided for both students and faculty. Fully furnished and well-equipped labs decorate every building in the University.  Moreover, the campus is fortified with ample features that support diverse events - Auditoriums, plush open spaces, outdoor stages and much more.\n Academic Blocks: A striking feature of VIT is the well-planned and comprehensive premises provided for both students and faculty. There are seven academic blocks in VIT which are extremely specialised in their own particular field, namely- MB, GDN, CDMM, SMV, CBMR, TT, SJT and GANDHI BLOCK. The layout has been excellently planned to make the maximum utilisation of the 372 acre campus. The idea behind these separate blocks is to make every block equipped with the necessary amenities whilst providing the perfect atmosphere for both studies and research.\n1. Dr.MGR Block\n2. Silver Jubilee Tower\n3. Technology Tower\n4. Sri.M. Vishweshwarariah Building\n5. CBMR\n6. G.D Naidu Block\n 7. CDMM Building\n 8. A.L. Mudallar Block\n9. Gandhi Block\n\n Auditoriams and Conference Facilities: Our University firmly believes in providing its students exposure to national and international knowledge experts, through regular national and international conferences / symposia and workshops hosted on campus. It is with this view that a wide choice of modern conference facilities have been meticulously planned and incorporated into the VIT campus. ‘Anna Audi ‘ commonly used by students is nothing short of being a marvel. Able to accommodate 1800 students and spread over an area of 15436 sq. feet , it has been built with centralised air conditioners , Wi-fi service and a spectacular stage along with green rooms and perfect amount of lighting. This auditorium is used for various events and conferences. It is located beside the volleyball and basketball courts and serves as a landmark in VIT. Anna Auditorium (Seating capacity – 1800). Dr. M. Channa Reddy Auditorium (Seating capacity – 469). Dr. Ambedkar Auditorium (Seating capacity – 198). Kamaraj Auditorium (Seating capacity – 128). Multi-purpose Hall (at Gandhi block) (Seating capacity –462 ) \n\n IT Infrastructure: Centre for Technical Support (CTS) maintains the policies governing the use of VIT computing and IT communication resources. The IT Policy applies to the resources administered by the administrative departments such as Library, Computer Laboratories, Offices of the Institution, Hostels and Guest houses wherever the network facility was provided by the Institution. Further, all the faculty, students, staff, departments, authorized visitors/visiting faculty and others who may be granted permission to use the IT Infrastructure, and must comply with the guidelines. Certain violations of IT policy laid down by VIT by any institution member may even result in disciplinary action against the offender by the institution authorities.\n\n Sports Facilities: To achieve a healthier lifestyle while coping with the pressures of studying, one needs to be healthy both emotionally and physically. With this motto, VIT emphasizes the importance of sports and considers them as an integral part of the curriculum. VIT has a number of centres for physical education and sports activities that help the students maintain fitness and develop a competitive spirit. Its numerous outdoor playgrounds and indoor courts are spread over a 20-acre area.\n\n Canteen: VIT has been amply blessed with three fully equipped multi cuisine canteens present at three strategic locations in college. Two at the far ends of college, one each in G D Naidu Block and the Silver Jubilee Tower and one more at the centre of the college near the Technology Tower. All the three canteens are on contract basis with external caterers and provide quality food at student friendly prices. Hosting a wide array of cuisines and dishes, they cater to the needs of the students from every corner of country providing them home style food with no compromise on the quality.\n\n Smart Classrooms: The smart classrooms are well designed to incorporate everything needed for a pleasant learning atmosphere. The wide spacious classrooms contain a white board and a projector that is used for teaching. As a result professors can switch to different modes of teaching as and when required so that the teaching isn’t monotonous and the lectures are put across in the best way possible. This hi-tech equipment enables the faculty to conduct classes in a way that enable students to make use of every available resource at the click of a button. These classrooms are also often used for seminars and events from time to time.\n "]
+  },
+  
+  {
+  "tag": "covid_19",
+  "patterns": ["what is the system of learning in the university during covid 19?"],
+  "responses": ["Online during covid 19 "]
+  },
+
+  {
+  "tag": "activities",
+  "patterns": ["Are there any activities in the university ?",
+              "vit activities " ,
+              "Are there activities within the university?",
+              "Are there activities within vit university?"],
+  "responses": ["Yes there are many activities like sports , acting and camping. "]
+  },
+
+  {
+  "tag": "infection_control",
+  "patterns": ["What about infection control in the university?"],
+  "responses": ["There are many gates for infection control. "]
+  },
+  {
+  "tag": "info_2",
+  "patterns": ["What about security system in the university?",
+              "What about security system in vit university?",
+              "What about the university's security system?"],
+  "responses": ["The staff of security are very qualified."]
+  },
+  
+  {
+  "tag": "info_3",
+  "patterns": ["How many student in one class ?",
+              "Number of students in one class",
+            "Total number of students in one class"],
+  "responses": ["There are 25-75 students in one class based on the number of registered student. The registration of courses is done through the FFCS process."]
+  }, 
+  {
+  "tag": "University_College",
+  "patterns": ["what are the colleges avilable within the university?",
+              "the colleges avilable within the university?",
+              "Colleges within the university are ?",
+              "what about vit colleges?",
+              "Colleges avilable in the university",
+              "What are the colleges in the university?",
+              "What are the colleges in vit university?",
+              "Colleges at university are ?",
+              "How many college within the university?",
+              "how may colleges in the university?",
+              "i ask about the colleges within vit  university?",
+              "i ask about the colleges at the university?"],
+  "responses": ["(1)School of Advance Sciences(SAS)\n(2)School of Information technology and Engineering(SITE)\n(3)VIT School of Design(V-SIGN)\n(4)School of Social Sciences and Languages(SSL)\n(5)School of Electronics Engineering(SENSE)\n(6)\n(7)School of Civil Engineering(SCE)\n(8)School of Bio Science and Technology\n(9)VIT School of Agricultural Innovations and Advanced Learning(VAIAL)\n (9) VIT Business School (VIT BS)\n (10) School of Computer Science and Engineering(SCOPE)\n (11) School of Architecture(V-SPARC)\n (12) School of Mechanical Engineering (SMEC). \n (13) School of Electrical Engineering (SELECT). \n (14) School of Chemical Engineering (SCHEME)\n (15) School of Hotel and Tourism Management (HOT)"]
+  },
+  {
+  "tag": "Cs_coursess",
+  "patterns": ["what are courses in the faculty of computer scince ?",
+               "computer scince courses?",
+               " the courses in the  faculty of computer scince courses are ?",
+               "What are  computers and artificial intelligence  courses ",
+               "What are courses in  computers and artificial intelligence  ",
+               "What are the faculty of computers and artificial intelligence  courses ",
+               "What are the courses in the Faculty of Computing and Artificial Intelligence",
+               "What are the courses in the faculty of cs ?",
+               "What are cs courses?",
+               "What are courses in computer science? ",
+               "what will i study  in cs?",
+               "What will I study in computers Science?",
+               "what are my courses in cs college ?",
+               "computer scince courses are ?",
+               "do you know some thing about computer scince courses?",
+               "how many courses in computer scince?",
+               "what are the subjects in cs college ?",
+               "what are the subjects in  computers and artificial intelligence college?",
+               "what are the subjects in  the faculty of computers and artificial intelligence ?",
+               "list of courses offered in cs college are? ",
+               "list of courses offered in  the faculty of cs  are? ",
+               "list of courses offered in the  faculty of computer scince  are? "
+              ],
+  "responses": ["Students have to complete a total of 180 credit in 4 years. For more information about the sturcture of various programmes please viist the foloowing link (https://vit.ac.in/schools/school-of-computer-science-and-engineering-for-ug-courses)"]
+  },
+  {
+  "tag": "CS_departments",
+  "patterns": ["what are computer scince departments?",
+              "What are the departments of the College of Computer Science? ", 
+              "what are  computers and artificial intelligence departments?",
+              "What are the departments in computers science?" ,
+              "What are the departments in the faculty of Computer Science? ",
+              "What are the departments in the faculty of  computer ",
+              "computer scince departments are ?",
+              "computers engineering departments are?",
+              "cs departments?",
+              "what is the departments at cs college?",
+              "what is the departments in computers science and engineering college?",
+              "What are the departments in the College of computers and Artificial Intelligence? ",
+              "how many departement in the faculty of computer scince?",
+              "how many departement in computer scince?",
+              "how many departement in computers and artificial intelligence?",
+              "computer scince departments information?",
+              "computers and artificial intelligencedepartments information?",
+              "how many departement in cs?",
+              "how many departement in  computers and artificial intelligence?",
+              "i ask about departments in cs college ?",
+              "how many departement in computers and  artificial intelligence?",
+              "i ask about departments in computers and  artificial intelligence college ?"],
+  "responses": ["1-Computer Science and Engineering\n2-Computer Science and Engineering with Specialisation in Bioinformatics\n3-Computer Science and Engineering with Specialisation in Information Security\n4-Computer Science and Engineering and Business systems (in collaboration with TCS)\n5.Computer Science and Engineering with Specialisation in IOT\n6.Computer Science and Engineering with Specialisation in Data Science\n7.Computer Science and Engineering with specialisation in Blockchain Technology"]
+  },
+  {
+  "tag": "Cs_study_policy",
+  "patterns": ["What is the study policy in computer science?" ,
+              "what is the studey policy in computers and  artificial intelligence college?",
+              "what is studey policy of CS?",
+              "what is studey policy in the faculty of computers and  artificial intelligence ?",
+              "studey policy in  computer Scince college?",
+              "studey policy in the faculty of computer Scince ?",
+              "the study policy in the Faculty of Computer and Artificial Intelligence is ?" ,
+              "study policy in cs college is ?",
+              "study policy in computers and  artificial intelligence college is ?",
+              "what is studey policy in computer Scince College?",
+              "what is studey policy in computers and  artificial intelligence College?",
+              "what is studey policy in  the faculty of computers and  artificial intelligence ?",
+              "what is studey policy in CS College?",
+              "what is studey policy in the faculty of CS ?",
+              "studey policy in  computer Scince College is?",
+              "policy of computer scince College is?",
+              "policy of cs College is?",
+              "policy in cs College is?",
+              " policy of faculty of  cs ",
+              " policy in faculty of cs ",
+              "policy in computers and  artificial intelligence College?",
+              "policy in  the faculty of computers and  artificial intelligence College?",
+              "policy of computers and  artificial intelligence  College?",
+              "policy in faculty of  computer Scince and artificial intelligence ?",
+              "what is the policy at computer science?"],
+  "responses": ["School Year:\nThe vit follows the credit-hour system.\n\nThe school year falls in three semesters:\nThe first semester (Fall) starts in September.\nThe second semester (Spring) starts in January.\nClass Attendance Policy:\nAll students are required to attend classes on a regular basis. Student should attend at least 75% of classes to be allowed to sit for the final exam. Extenuating circumstances which may force a student to be absent should be reported to the departmental office.\nThe instructor will determine the amount of assistance a student will need to complete the course requirements. Absence does not relieve the student of the responsibility for assignments covered during the period of absence.\nFilling Absence Form, the student is allowed to be absent from university for an accepted excuse for two successive semesters, or three inconsecutive ones. A student is dismissed from the Faculty if absent for a longer period\nwithout an excuse accepted by the Faculty Academic Board, and approved by University Academic Board.\n\nLanguage of Instruction:\nEnglish is the language of instruction.\nThe Faculty plans to add other sections where other foreign languages are used.\n"]
+  },
+
+  {
+  "tag": "VIT Fees",
+  "patterns": ["What are the fees?", 
+              "What are the money?",
+              "What are the fees?",
+              "What are the college fees?",
+              "What are fees?",
+              "How much does a year cost? ",
+              "What are trhe total cost",
+              "Fees for different programs",
+              "Fees for",
+              "What is the cost",
+              "Prices",
+              "Fees strcuture"
+             ],
+  "responses": ["For Information about the fee structure of various programmes please visit the following link: https://vit.ac.in/admission/ug/fee-structure "]
+  },
+  {
+  "tag": "the_language_that_is_taught_in_the_FACULTY_OF_COMPUTERS_SCIENCE",
+  "patterns": ["Study in English in computers science?",
+              "Study in English in the college of computers science?",
+              "Study in English in the college of computer scince ?",
+              "Study in English in the college of  cs ?",
+              "Study in English in the faculty  of  cs ?",
+              "Study in English in the faculty of computers science ?",
+              "Study in English in the Faculty of computer scince?",
+              "what is the study language in the Faculty of computers science?",
+              "in which language can i study in computers science?",
+              "in which language can i study in cs college?",
+              "in which language can i study in computer scince college?",
+              "in which language can i study in the college of computers science?",
+              "there is another language except english in computers science?",
+              "there is another language except english in the college computer scince ?",
+              "there is another language except english in the college cs?",
+              "there is another language except english in the college computers science ?",
+              "can i study with  language in computers science?",
+              "is the study in the Faculty of computers science or english?"],
+  "responses": ["All courses are taught in engligh"] 
+  },
+  {
+  "tag": "calculate_GPA_in_the_Faculty_of_FACULTY_OF_COMPUTERS_AND_ARTIFICIAL_INTELLIGENCE",
+  "patterns": ["What are the methods of evaluation in the college of computers science?",
+              "What is the GPA in the computers science?",
+              "What is the GPA in the faculty of computers science ?",
+              "What is the GPA in the computer scince college?",
+              "What is the GPA in the faculty of computer scince ?",
+              "What is the GPA in the college of computer scince ?",
+              "What are the methods of evaluation in the college of computer scince?",
+              "how can i calculate my gpa ",
+              "how can i calculate my gpa  in the faculty of computers science",
+              "how can i calculate my gpa  in the college of computer scince ",
+              "how can i calculate my gpa  in the college of cs  ",
+              "What is the GPA in the Faculty of computers science?",
+              "What are the methods of evaluation in the Faculty of computers science?"],
+  "responses": ["if the presentage more than 90 the grade is S\nif the presentage above 80 then the grade is A and the point is 3.\nif the presentage between 70% and  80% the grade is B\nif the presentage between 60% and 70% the grade is C\nif the presentage between 50% and 60% the grade is D\nif the presentage between 40% and 50%  the grade is E\n If a student gets below 40% then he/she will have to ratake the course"]
+  },
+ 
+  {
+  "tag": "documents_are_required_to_register_in_the_FACULTY_OF_COMPUTERS_AND_ARTIFICIAL_INTELLIGENCE",
+  "patterns": ["What documents are required For entrance exam",
+              "What documents are required For VITEEE",
+              "Documents required for registration",
+              "What are the documents needed for appllication process"
+            ],
+  "responses": ["1. Aadhaar Card.\n 2. Communication Address\n 3. Class 12 Certificate\n 4. Scanned copy of passport size photo and signature\n 6. Passport size photograph\n 7. Signature"] 
+  },
+  {
+  "tag":"courses of the first year of engineering",
+  "patterns":["What are the courses of the first year, Faculty of Engineering?",
+             "What are Engineering matrials of the first year",
+             "What are the courses of the faculty of Engineering of the first year ",
+             "Engineering coursess of the first year?",
+             "What are Engineering coursess of the first year ",
+             "What are eng coursess of the first year?",
+             "what will i study at the of the first year?",
+             "what will i study at the faculty of engineering of the first year",
+             "what are my Courses at engineering college of the first year?",
+             "what are my courses at engineering college of the first year?",
+             "engineering coursess of the first year?",
+             "What are engineering courses of the first year?",
+             "do you know some thing about Enginerring of the first year",
+             "do you know some thing about engineering courses of the first year?",
+             "how many courses for computer scince of the first year?",
+             "how many courses for engineering of the first year",
+             "how many coursess for the faculty of engineering of the first year",
+             "what are the subjects at engineering college of the first year?",
+             "what are the subject at Engineering of the first year?",
+             "list of courses of the engineering college of the first year"],
+  "responses":["Courses of the first year is \n1-STR(II)PMG Field training \n2-STR(IV)COT Field training \n3-BENG110 Engineering Drawing (I)\n4-ELTE314 Satellite Communications\n5-Advanced Automatic Control \n6-CHM106 Chemistry (I) \n7-PHY108 Physics (II) \n8-BENG104 Mechanics (II) \n9-LNG116 Technical English (I) \n10-BENG114 Production Engineering (II) \n11-COMP109 Introduction to Computer Programming\n12-BENG111 Engineering Drawing (II) \n13-HUM115 History of Engineering\n14-BENG103 Mechanics (I) \n15- Fundamentals of Architecture Design \n16- Die Design \n17-PHY107 Physics (I) \n18-Geotechnical Engineering (I) \n19-Digital AndElectronic Circuits (I) \n20- Engineering Design (I) \n21- Theory of structure (I) \n22- Digital Systems (I) \n23- Microelectronic (I) \n24- Mechatronics (I) "],
+  "context":""
+  },
+  {
+  "tag":"courses of the second year of engineering",
+  "patterns":["What are the courses of the second year, Faculty of Engineering?",
+             "What are the courses of the second year, Faculty of Engineering?",
+             "What are Engineering matrials of the second year",
+             "What are the courses of the faculty of Engineering of the second year ",
+             "Engineering coursess of the second year?",
+             "What are Engineering coursess of the second year ",
+             "What are eng coursess of the second year?",
+             "what will i study at the of the second year?",
+             "what will i study at the faculty of engineering of the second year",
+             "what are my Courses at engineering college of the second year?",
+             "what are my courses at engineering college of the second year?",
+             "engineering coursess of the second year?",
+             "What are engineering courses of the second year?",
+             "do you know some thing about Enginerring of the second year",
+             "do you know some thing about engineering courses of the second year?",
+             "how many courses for computer scince of the second year?",
+             "how many courses for engineering of the second year",
+             "how many coursess for the faculty of engineering of the second year",
+             "what are the subjects at engineering college of the second year?",
+             "what are the subject at Engineering of the second year?",
+             "list of courses of the engineering college of the second year"],
+  "responses":["Courses of the Second year is \n1-STR(II)PMG Field training \n2-BIO207 Strength of Materials \n3- Power Electronics (II)\n4-MENG206 Strength of Material \n5-MENG224 Properties And Testing of Material \n6-CENG227 Technical Report Writing \n7-ELTE216 Electromagnetic Principles \n8-ELTE219 Computer Organization \n9-CENG230 Engineering Economics \n10-BIO222 Civil Engineering \n11-CENG201 Engineering Graphics\n12-COME204 Engineering Mechanics \n13-CENG229 Engineering Geology\n14-ELTE204 Engineering Mechanics \n15-MENG227 Engineering Economics \n16-CENG225 Building Equipment \n17-ARCH201 Fundamentals of Architecture Design \n18-CONT227 Technical Reports Writing \n19-CONT220 Civil Engineering \n20-ELTE228 Industrial Psychology \n21-MENG217 Metrology and Measurements \n22-CONT228 Industrial Psychology \n23-CENG212 Hydraulics \n24-MENG218 Civil Engineering \n25-MENG222 Heat Transfer And Industrial Furnaces \n26-BENG214 Production Engineering (II)\n27-CENG220 Building Technology \n28-CONT203 Microelectronics (II) \n29-CONT202 Control Engineering (II) \n30-CONT215 Micro-Computing Engineering \n31-CONT206 Engineering Design (II) \n32-MENG219 Thermodynamics And Energy Systems \n33-MENG212 Mechanical Element Design \n34-MENG204 Engineering Mechanics And Theory of Machines \n35-MENG207 Metallurgy \n36-MENG216 Electronic Devices And Circuits \n37-MENG211 Fluid Mechanics \n38-MENG210 Stress Analysis \n39-BENG204 Mechanics (II) \n40-CONT212 Computer Application "],
+  "context":""
+  },
+  {
+  "tag":"courses of the third year of engineering",
+  "patterns":["What are the courses of the third year, Faculty of Engineering?",
+             "What are the courses of the third year, Faculty of Engineering?",
+             "What are Engineering matrials of the third year",
+             "What are the courses of the faculty of Engineering of the third year ",
+             "Engineering coursess of the third year?",
+             "What are Engineering coursess of the third year ",
+             "What are eng coursess of the third year?",
+             "what will i study at the of the third year?",
+             "what will i study at the faculty of engineering of the third year",
+             "what are my Courses at engineering college of the third year?",
+             "what are my courses at engineering college of the third year?",
+             "engineering coursess of the third year?",
+             "What are engineering courses of the third year?",
+             "do you know some thing about Enginerring of the third year",
+             "do you know some thing about engineering courses of the third year?",
+             "how many courses for computer scince of the third year?",
+             "how many courses for engineering of the third year",
+             "how many coursess for the faculty of engineering of the third year",
+             "what are the subjects at engineering college of the third year?",
+             "what are the subject at Engineering of the third year?",
+             "list of courses of the engineering college of the third year"],
+  "responses":["Courses of the third year is \n1-ELTE312 Digital Communications \n2-CEM322 Hospitals construction Management \n3-ELTE301 Data Base Management \n4-BIO306 Modeling of Electrical Machines \n5-CONT317 Power Electronics (II) \n6-ARCH311 Steel Construction \n7-ARCH311 Steel Construction \n8-PENG316 Simulation of Industrial Systems \n9-CONT301 Use of Microcomputers \n10-COME316 Robot systems and Technology \n11-MENG301 System Dynamics And Vibration\n12-MENG322 Feasibility studies \n13-CONT325 Feasibility Studies\n14-CEM303 Municipal Engineering \n15-CONT319 Microwaves Principles \n16-CONT308 Advanced Control Engineering \n17-ELTE307 Optical electronics \n18-ELTE314 Satellite Communications \n19- \n20-ELTE317 Advanced Automatic Control \n21-ELTE312 Digital Communications \n22-MENG319 Refrigeration And Air Condition \n23-MENG305 Mechatronics (I) \n24-MENG305 Mechatronics (I) \n25- \n26-PENG325 Industrial Psychology\n27- \n28-PENG319 Powder Metallurgy \n29-PENG313 Digital Signal Processing \n30-PENG311 Automatic Control \n31-PENG308 Industrial Management \n32-MENG302 Mechanical System Design \n33-MENG304 Computer Aided Manufacturing \n34-MENG312 Process Control And Automation \n35-MENG318 Internal Combustion Engines \n36-MENG303 Computer Aided Design \n37-PENG321 B.Sc. Project Premium \n38-PENG305 Die Design \n39-PENG307 Heat and Surface Treatment \n40-CENG314 Quantities and specifications \n41-COME324 Artificial Intelligence \n42-COME313 Image Processing \n43-COME326 B.Sc. Project Premium \n44-COME308 Communication Networks \n45-COME306 Microprocessor Based Systems \n46-MENG321 B.Sc. Project \n47-BIO305 CAD of Signals And Systems \n48-COME323 Expert Systems \n49-COME327 B.Sc. Project \n50-COME315 Information Systems \n51-COME314 Computer Security \n52-ELTE310 Antennas And Waves Propagation \n53-ELTE316 Radar Engineering Systems \n55-CENG315 Tunnels and Under Ground Structures \n56-CEM306 Quantities and specifications \n57-CEM317 Numerical Analysis \n58-BIO304 Power Electronics \n59-CONT311 Digital Control \n60-CENG312 Structure Steel Design (III) \n61-CENG303 Structural Steel Design (I) - CENG 303 \n62-ARCH302 Working Drawings (I)\n63-ARCH313 Building Construction Equipment \n64-CONT309 Electronic Instruments And Sensors \n65-CEM316 Public works construction (II) \n66-CENG322 Quality Control \n67-CONT305 Power Electronics (I) \n68-CEM315 Construction management \n69-ARCH316 Modular coordination Urban planning \n70-ARCH320 Smart Building Design \n71-ELTE328 Environmental Impact of Communication Systems \n72-MENG308 Robot Technology \n73-CENG310 Roads And Runways Design \n74-MENG317 Maintenance Planning \n75-MENG306 Simulation of Industrial Systems\n76-MENG309 Digital Signal Processing \n77-CONT323 B.Sc. Project Premium \n78-CONT303 Microelectronics (II) \n79-CONT302 Control Engineering (II) \n80-CONT310 Digital Signal Processing \n81-CEM308 Advanced Reinforced Concrete Design \n82-CEM311 Quality control \n83-CEM302 Geotechnical Engineering (II) \n84-CENG327 Legislations in civil engineering \n85-CEM309 Decision making And project planning \n86-MENG324 Industrial Psychology \n87-ELTE315 Mobile Phones Systems \n88-BIO334 Feasibility Study \n89-MENG314 Computer Integrated Manufacturing \n90-ARCH304 Technological Installation For buildings \n91-CONT315 Fluid power control systems \n92-CONT327 Engineering Economics \n93-CONT314 Programmable Logic controller \n94-BIO330 B.Sc. Project Premium \n95-BIO318 TQM in Health Care \n96-BIO310 Medical Gases System Design \n97-BIO309 Bio-Mechanics Systems \n98-BIO308 Clinical Engineering \n99-BIO302 Microwaves Circuits and Equipment \n100-CENG301 Geotechnical Engineering (II) \n101-BIO331 B.Sc. Project \n102-BIO313 Electronic Vision \n103-BIO312 Automatic Control \n104-BIO301 Bio Informatics \n105-CEM327 Facility planning and control \n106-CENG317 Environmental Engineering \n107-ELTE324 B.Sc. Project Premium "],
+  "context":""
+  },
+
+  {
+  "tag":"courses_of_the_fourth_year_of_engineering",
+  "patterns":["What are the courses of the fourth year, Faculty of Engineering?",
+             "What are the courses of the fourth year, Faculty of Engineering?",
+             "What are Engineering matrials of the fourth year",
+             "What are the courses of the faculty of Engineering of the fourth year ",
+             "Engineering coursess of the fourth year?",
+             "What are Engineering coursess of the fourth year ",
+             "What are eng coursess of the fourth year?",
+             "what will i study at the of the fourth year?",
+             "what will i study at the faculty of engineering of the fourth year",
+             "what are my Courses at engineering college of the fourth year?",
+             "what are my courses at engineering college of the fourth year?",
+             "engineering coursess of the fourth year?",
+             "What are engineering courses of the fourth year?",
+             "do you know some thing about Enginerring of the fourth year",
+             "do you know some thing about engineering courses of the fourth year?",
+             "how many courses for computer scince of the fourth year?",
+             "how many courses for engineering of the fourth year",
+             "how many coursess for the faculty of engineering of the fourth year",
+             "what are the subjects at engineering college of the fourth year?",
+             "what are the subject at Engineering of the fourth year?",
+             "list of courses of the engineering college of the fourth year"],
+  "responses":["Courses of the fourth year is \n1 Programmable Logic Controller \n2 Control Systems  \n3-  Micro processor Systems\n4- Legislations \n5-B.Sc. Project Premium \n6- Quantities and specifications \n7-Reinforced Concrete Design \n8- Theory of Structure  \n9- Cost management And accounting \n10- History of the build Environment \n11- B.Sc. Project\n12- Industrial Electronics \n13-Integrated Circuits\n14- Microprocessors Based systems \n15-B.Sc. Project \n16- Modeling of Industrial Systems \n17-Structural Steel Design  \n18-Legislations in civil engineering \n19- Projects planning And analysis \n20- Feasibility Studies \n21-Technical Sanitary Installations \n22-B.Sc. Project \n23-Optical Communication systems \n24- Communication Networks \n25-Microwaves Electronic Engineering \n26- Public works construction \n27- Construction Unit Operation \n28-Highway Engineering \n29- B.Sc. Project Premium \n30- Structural Steel Design- \n31- Sanitary Waste water Systems \n32- Advanced Reinforced Concrete \n33- Foundation Design \n34-Transportation Engineering \n35-B.Sc. Project \n36- History of the build Environment \n37-Structure Steel Design  \n38-Construction Management \n39- B.Sc. Project Premium \n40- Structural Steel Design \n41-Foundation Design"],
+  "context":""
+  },
+
+ 
+  {
+  "tag": "Faculty_of_Engineering_study_policy",
+  "patterns": ["what is studey policy of the Faculty of Engineering?",
+              "studey policy of the Faculty of Engineering?",
+              "policy of engineering?",
+              "policy of the Engineering College",
+              "the policy of the faculy of engineering?",
+              "could you tell me the policy of faculty of engineering?",
+              "give me information about the policy of faculty of engineering?"],
+  "responses": ["Academic Advising:\nAt initial Registration, students are advised by a full-time faculty member.\n\nAfter the initial Registration each student is assigned a member of the full-time faculty staff as an Academic Adviser. Students meet with their advisers to review their academic progress, choose courses for the following semester and plan their course study.\nAdvisers welcome the opportunity to help students to gain maximum benefit from their educational experience.\nThe adviser’s opinion is only consultative and not an obligation.\n\nOffice of the Registrar:\nThe office of the Registrar at Faculty of Engineering provides a number of significant services to vit students. The office is responsible for Registration,\nscheduling, issuing Transcripts and enrolment Verification Certificates, maintaining student records, and certifying students for graduation.\n\nRegistration:\nStudents register for classes before the beginning of each semester. Registration forms are available at the office of the Registrar.\nRegistration information and other relevant class announcements are published in the schedule of classes printed for each semester.\nOnly students who are officially enrolled may attend classes and receive academic credit for instruction.\nA student is registered for a course upon the recommendation of the academic adviser. Only the courses\nfor which assigned fees are paid will be registered for the student.\n\nCourse Load Limitations:\nThe maximum course load is 18-20 credit hours, the minimum is 12 credit hours.\nThe maximum and minimum course load may be waived for the purpose of a student’s graduation."]
+  },
+  
+  {"tag": "day and evening batch",
+  "patterns": ["is there day and evening batch",
+  "What time are the classes",
+  "Class timings",
+  "WHen are the classes"
+],
+  "responses": ["Students will have the opportunity to take classes either in the morning or the evening. The entire course registration responsibility is given to the student"]
+  }, 
+  {
+  "tag": "duration of the holidays",
+  "patterns": ["how long the duration of the holidays",
+              "duration",
+              "holidays",
+              "holiday"],
+  "responses": ["During the semester there are 5 working days. There are also varous public holidays during the sementer. After each year there is a break for about 2 months."]
+  },
+  {
+  "tag": "cocurricular activities",
+  "patterns": ["do you have cocurricular activities",
+              "co-curricular",
+              "cocurricular"],
+  "responses": ["yes we do have cocurricular activities like sports day, cultural day, debates, and music and dance competition"]
+  },
+  {
+  "tag": "minimum attendance required to sit for exams",
+  "patterns": ["what is the minimum attendance required to sit for exams",
+              "minimum"],
+  "responses": ["you are required to attend 75 percentage of the lectures and must inform the staff members if you can’t attend any lectures"]
+  },
+
+  {
+  "tag": "Books",
+  "patterns": ["Are there books available",
+            "Are resources available in the library",
+            "Where can i find books",
+            "Book for courses"    
+  ],
+  "responses": ["Yes, you will find it in the library"]
+  },
+  {
+  "tag": "library",
+  "patterns": ["Is there a library?"],
+  "responses": ["Yes we have sophisticated library in our campus that contains everything that develops and improves the student’s academic level"]
+  },
+  
+  {
+  "tag": "requirements of graduating",
+  "patterns": ["what are the requirements of graduating",
+              "graduating"],
+  "responses": ["you are supposed to pass all your exams with a minimum of 2.0 GPA and clear all your fees and have no remaining papers and projects"]
+  },
+  {
+  "tag": "internship placement",
+  "patterns": ["do you have internship placement in companies and industries",
+              "placement"],
+  "responses": ["yes we do help you to send reccomendations and also if possible help to send you to a company for internship."]
+  },
+  {
+  "tag": "e-learning",
+  "patterns": ["do you have e-learning",
+              "elibrary",
+              "library" ,
+              "e-library"],
+  "responses": ["e-Library is a convenient and affordable online resource giving you easy access to a wide range of quality books."]
+  },
+  {
+  "tag": "blended learning platform",
+  "patterns": ["what is meant by blended learning platform",
+              "blended"],
+  "responses": ["vit recently launched blended learning platform and it combines classroom learning with online learning, in which students can, in part, control the time, pace, and place of their learning. Blended learning platform and esports is launched by  honorable information technology minister uganda recently."]
+  },
+  {
+  "tag": "sports",
+  "patterns": ["tell me about sports",
+              "tell me about sport",
+              "sport",
+              "sports"],
+  "responses": ["You will learn within a practical technical environment everything required to host small and large scale events. Developing your skills for single player and multi-player team events you will create business plans to build teams, create online communities and promote your events through digital marketing. You will also get the opportunity to explore the culture of esports, its audience and fan base as well as a variety of the most popular current game genres."]
+  },
+  
+  {
+  "tag": "thank",
+  "patterns": ["thank you for this information",
+              "thank",
+              "bye"],
+  "responses": ["you are welcome see you soon at vit university"]
+  },
+  
+  {
+  "tag": "suspend or stop learning temporarily",
+  "patterns": ["Is it possible to suspend or stop learning temporarily",
+              "paused learning"],
+  "responses": ["You can withdraw and stop learning temporarily On the condition that half of the amount is paid","Students have the right to apply for a pause and hold"]
+  },
+  {
+  "tag": "cases can students submit a suspend ",
+  "patterns": ["In what cases can students submit a suspend request?"],
+  "responses": ["In all sick cases, travel and other circumstances, the student can submit a request to temporarily suspend education"]
+  },
+  {
+  "tag": "After decided to pause",
+  "patterns": ["After I decided to pause, what does the college do in the name of the student on the list"],
+  "responses": ["The college must temporarily remove the student's name from the class until he resumes studies"]
+  },
+ 
+  {
+  "tag": "final exam ",
+  "patterns": ["What will the final exam look like?",
+      "How are the final exam conducted",
+      "Passing criteria for final exams",
+      "When are the exams",
+      "Total number of exams in each semester",
+      "How many exams",
+      "Total number of exams in each course",
+      "How many exams in each course"
+  ],
+  "responses": ["Students have to give 3 exams during a semester for each registered course. Students must also get a minumum of 40 marks out of 100 in the final exam to pass the course"]
+  },
+  
+  {
+  "tag": "student mail",
+  "patterns": ["How important is student mail?"],
+  "responses": ["It is important in all cases to enter the university, to take exams, to educational platforms, and to follow up on the results"]
+  },
+  {
+  "tag": "email password",
+  "patterns": ["What is the email password?"],
+  "responses": ["it appear on the E-Learning site"]
+  },
+  {
+  "tag": "forgot the email ",
+  "patterns": ["If i forgot the email password?"],
+  "responses": ["You can return the password through the website, and a text will be sent to you on the phone or email"]
+  },
+  {
+  "tag": "lose account",
+  "patterns": ["What if I lose my authentication account?"],
+  "responses": ["you can go to Staff and return it"]
+  },
+ 
+  {
+  "tag": " conditions for scholarships",
+  "patterns": ["What are the conditions for scholarships?"],
+  "responses": ["That your total grades equals the internal total of scholarships "]
+  },
+  {"tag": "if too many students receive scholarships",
+  "patterns": ["What if too many students receive scholarships?"],
+  "responses": ["Scholarships awarded to the highest grades in order"]
+  },
+  {
+  "tag": "infrastructure of the university",
+  "patterns": ["I would like to know about the infrastructure /of the university ?"],
+  "responses": ["The presence of a strong infrastructure and qualified faculty staff."]
+  },
+  
+  {
+  "tag": "University Auditorium",
+  "patterns": ["is there a University Auditorium"],
+  "responses": ["Yes, there are conference rooms for important events for students, doctors and scientific research and discuss projects"]
+  },
+  {
+  "tag": "University Hospitals",
+  "patterns": ["are there a University Hospitals",
+              "I would like to know about the university hospitals ?"],
+  "responses": ["The university provides hospitals and examination for free and payment"]
+  },
+  {
+  "tag": "student center ",
+  "patterns": ["I would like to know about student center ?"],
+  "responses": ["The university administration is the center for students"]
+  },
+  {
+  "tag": "theory and lab",
+  "patterns": ["Are there only lab subjects or both theory and lab",
+              "Theory and lab subjects"],
+  "responses": ["There are subjects with both theory and lab and some which are only lab"]
+  },
+                                          
+  {
+  "tag": "buses at the university ",
+  "patterns": ["Are there buses at the university?"],
+  "responses": ["Yes, there are buses for the university organized by the university or some external offices"]
+  },
+  {
+  "tag": "Bus Schedules",
+  "patterns": ["What is the Bus Schedules"],
+  "responses": ["Bus start times are from 7am to 4pm All days of the week, except for Friday"]
+  },
+  {
+  "tag": "buses features",
+  "patterns": ["Are the buses air-conditioned?"],
+  "responses": ["Yes, all buses are air-conditioned and have their own features"]
+  },
+
+  {
+  "tag": "college trip features",
+  "patterns": ["What are the college trip features"],
+  "responses": ["Modern, air-conditioned bus transfers, a quarter of a chicken meal, rice, salad and flour for everyone, photographer for the day"],
+  "context_": ""
+  },
+  {
+  "tag": "master’s degree",
+  "patterns": ["Does the university provide a master’s degree?"],
+  "responses": ["Yes the university provide a master’s degree"]
+  },
+  {
+  "tag": "requirements for Master’s degree",
+  "patterns": ["What are the requirements for begin Master’s degree?"],
+  "responses": ["Firstly, the student should obtain a bachelor’s degree in the major in which he wants to study the master’s, and that his studies have been completed at the university and he / she has at least a good general rating."]
+  },
+  {
+  "tag": "reasons why students want to obtain a master's degree",
+  "patterns": ["The reasons why students want to obtain a master's degree"],
+  "responses": ["In order to get a greater financial return from the job that he gets and to facilitate promotion and career success in companies"]
+  },
+  {
+  "tag": "E-Learning System - Moodle",
+  "patterns": ["Video: Student's Guide to Using the E-Learning System - Moodle"],
+  "responses": ["this a video about using E-Learning https://www.youtube.com/watch?v=TjOKO_EYNQ0"]
+  },
+                                          
+  {
+  "tag": "misses_the_final_exam",
+  "patterns": ["What happens if a student misses the final exam?",
+              "if a student misses the final exam,What happens?"],
+  "responses": ["The student fails the course and obtains the grade (F). This mark is calculated in the semester average and the GPA, and the student must submit an excuse - if any - according to the university’s instructions, up to a maximum of one week after the excuse ceases to give him the opportunity to take an incomplete exam."]
+  },
+  {
+  "tag": "excuse_if_a_student_misses",
+  "patterns": ["What is the acceptable excuse if a student misses the final exam?",
+              "What is the acceptable excuse in case the student fails to sit for the final exam?",
+              "What is the acceptable excuse if a student fails to sit for the final exam?"],
+  "responses": ["The student is given the opportunity to sit for an incomplete exam if he missed the final exam and the excuse included the following: the death of a first-degree relative (father, mother, brother, sister, husband, wife, grandfather, grandmother) Arrest with proof of that to the Deanship of Student Affairs. For students residing abroad, admission to hospital due to illness, along with submitting a medical report from the hospital, which is approved by the university clinic."]
+  },
+                                          
+  {
+  "tag": "study_some_subjects_at_another_university",
+  "patterns": ["Is it possible to study some subjects at another university?"],
+  "responses": ["A student who is a regular at the university may study courses at another university."]
+  },
+                                          
+  {
+  "tag": "transfer_from_on_ major_to_another",
+  "patterns": ["How to transfer from one major to another?"],
+  "responses": ["A student can transfer from one major to another by filling out the application form to transfer from one major to another and submitting it to the Deanship of Admission and Registration at the beginning of the first or second semester, up to the end of the add and drop period, and these requests are decided by the Admission and Registration Deanship according to the admission and registration policy."]
+  },
+
+  {
+  "tag": "hours_university",
+  "patterns": ["timing of university",
+              "what is the timing of university",
+              "what is college timing",
+              "working days in the university",
+              "working days your  university",
+              "when are you guys open",
+              "What are the working hours in your university ",
+              "hours of operation in your university",
+              "when is the your university open",
+              "what about the university timing",
+              "is college open on saturday",
+              "tell me  something about the university timing",
+              "what is the university  hours",
+              "when should i come to the university",
+              "when should i attend the university",
+              "what is your university time"],
+  "responses": ["College is open 9am-5pm saturday-Friday!"]
+  },
+  {
+  "tag": "fees_university",
+  "patterns": ["information about fee",
+              "information on fee",
+              "tell me the fee",
+              "college fee",
+              "fee per semester",
+              "what is the fee of each semester",
+              "what is the fees of each year",
+              "what is fee",
+              "what is the fees",
+              "how much is the fees",
+              "fees for first year",
+              "fees",
+              "about the fees",
+              "tell me something about the fees",
+              "fees be",
+              "fees me",
+              "fees comps",
+              "fees it",
+              "fees auto",
+              "fees extc",
+              "fees electrical",
+              "fees computer",
+              "fees mechanical",
+              "fees automobile",
+              "fees open fe",
+              "fees open se",
+              "fees open te",
+              "fees open be"],
+  "responses": ["For Fee details visit https://vit.ac.in/"]
+  },
+  {
+  "tag": "hostel",
+  "patterns": ["hostel facility",
+              "hostel servive",
+              "hostel location",
+              "hostel address",
+              "hostel facilities",
+              "hostel fees",
+              "Does college provide hostel",
+              "Is there any hostel",
+              "Where is hostel",
+              "do you have hostel",
+              "do you guys have hostel",
+              "hostel",
+              "hostel capacity",
+              "what is the hostel fee",
+              "how to get in hostel",
+              "what is the hostel address",
+              "how far is hostel from college",
+              "hostel college distance",
+              "where is the hostel",
+              "how big is the hostel",
+              "distance between college and hostel",
+              "distance between hostel and college"],
+  "responses": ["A home away from home, the hostels at VIT is more than four walls and a roof. They have been designed to provide a comfortable, safe, inclusive and secure living even as they provide opportunities to form lasting friendships and ease the transition from home to college. Residential staff is always available to support the students from different backgrounds to promote community. Living on campus provides students with opportunities to:\n 1. Connect with a diverse population of people.\n 2. Develop stronger interpersonal and communication skills\n 3. Engage in campus leadership, organizations and activities\n 4.  Establish relationships with faculty and staff members.\n Hostel review committee meetings are conducted once in 15 days by the hostel administrators to address students’ queries and requirements, and to keep them updated on upgradation of services and events. Students are also given the privilege to give suggestions to improve the hostel facilities.\n\n\n Dining: \n A spacious Visitors' Lounge has recently been added for the benefit of visiting parents/guardians, supplementing the residential guest house facilities available. The spotlessly maintained and spacious vegetarian and non-vegetarian dining halls in the hostels serve wholesome, nutritious food with the help of a unique steam cooking facility. Foreign students can also choose from a limited list of special food items. A Chinese mess is functioning separately. For those who want to try out different cuisines, a variety of hygienic food facilities are available on campus. A popular eating spot is the 600 square meters Food Court, that serves delicious non-vegetarian and vegetarian food at reasonable prices. Fast food outlets are also attached to both the Men's and Women's Hostels.\n\n Facilities:\n VIT, Vellore campus has 24 Hostels. Out of which 18 blocks are boys’ hostels and the rest are girls’ hostels. The blocks, in total, cater to over 22,000 residents every year. Facilities and amenities include: \n 1.AC (Air-Conditioned) and Non-AC single and shared bed options.\n 2. Rooms equipped with ergonomically designed furniture which includes a cot, chair, study table, study lamp, bookshelf and a cupboard.\n 3. First aid centre, pharmacy, photocopy service, food kiosks, gymnasium (AC & Non-AC), swimming pool, sport amenities, laundry service, Wi-Fi service, beauty salon, tailoring unit, driving, dance and music classes, utility shop and visitor rooms.\n 4. Residential Counselors, Wardens, Supervisors, maintenance staff and security guards available 24x7.\n 5. Security guard to chaperone and safe transit students to and from the campus to the nearest railway station and bus stops for late night / early hours of the day.\n 6.  24 hours water supply and power supply supported by stand-by captive generators.\n\n Food: Healthy, wholesome food and a variety of dining options are available to the hostel students. Given the great diversity of tastes and cultures, students have access to multi-cuisine catering services that serves vegetarian, non-vegetarian, Indian and International food. Students can also choose and order from a limited list of special dishes available on prior registration at the Restaurant-style Mess. Dining areas are open as early as 7:00 AM with night canteens available from 10:30 PM to 12:30 AM. The kitchens are hygienically operated and adhere to the prescribed food standards. A balanced menu is prepared every month by the Student Mess and Menu Committee in consultation with the hostel administrators.\n\n For more information please visit: (https://vit.ac.in/campuslife/hostels)"]
+  },
+  {
+  "tag": "infrastructure",
+  "patterns": ["infrastructure",
+              "building",
+              "number of floors in bulding",
+              "college infrastructure",
+              "departments and labs",
+              "departments",
+              "labs",
+              "canteen",
+              "infrastructure vit",
+              "tell me about infrastructure",
+              "what about infrastructure"],
+  "responses": ["VIT campus is spread across a vast area of 372 acres. The remarkable aspect of VIT is the state-of-the-art infrastructure provided for both students and faculty. Fully furnished and well-equipped labs decorate every building in the University.  Moreover, the campus is fortified with ample features that support diverse events - Auditoriums, plush open spaces, outdoor stages and much more. For more infrastructure details visit https://vit.ac.in/"]
+  },
+  {
+  "tag": "event",
+  "patterns": [
+              "events organised",
+              "list of events",
+              "list of events organised in college",
+              "list of events conducted in college",
+              "What events are conducted in college",
+              "Are there any event held at college",
+              "Events?",
+              "functions",
+              "what are the events",
+              "tell me about events",
+              "what about events"],
+  "responses": ["Our college organizes various events during academics.Many Events are useful for technical skils and placements activities.There are many events which are held by deparments.https://vit.ac.in//university/student/lib.aspx",
+               "Our PHCET organizes FESTIVAL every year.There are major 2 fest in our college. Visit  https://vit.ac.in//list/9/events and https://vit.ac.in//629610"]
+  },
+  {
+  "tag": "document",
+  "patterns": ["document to bring",
+              "documents needed for admision",
+              "documents needed at the time of admission",
+              "documents needed during admission",
+              "documents required for admision",
+              "documents required at the time of admission",
+              "documents required during admission",
+              "What document are required for admission",
+              "Which document to bring for admission",
+              "documents",
+              "what documents do i need",
+              "what documents do I need for admission",
+              "documents needed"],
+  "responses": ["The following documents in original form should be submitted at the time of reporting to the institute:\n Original Documents: \n 1. Mark statements of all attempts of qualifying examinations.\n 2. Transfer certificate/ School leaving Certificate\n 3. Migration Certificate(if issued by the board)\n 4. Student Profile (https://vtop.vit.ac.in/studentprofile/) – (Signed by Student & Parent)\n 5.Affidavit by the Student (https://vit.ac.in/files/admissions/Affidavit_Student.pdf) – (Signed & Notarized)\n 6.Affidavit by the Parent (https://vit.ac.in/files/admissions/Affidavit_Parent.pdf) - (Signed & Notarized)\n 7.Hostel Affidavit (https://vit.ac.in/campuslife/hostels) - (Signed by Notarized).\n 8. Certificate of Physical Fitness (https://vit.ac.in/files/admissions/PhysicalFitness_Certificate.pdf)- (Certified by authorized Physician).\n 9.Undertaking form (https://vit.ac.in/sites/default/files/Undertaking.pdf) - (Signed by Student & Parent).\n 10.Recent passport size colour photos – 2 Nos.\n\n Copy of documents (1 set) :\n 1.Provisional Admission letter (photocopy)\n 2.VIT rank (For B.Tech. only)\n 3.Aadhar card\n 4.X & XII mark sheet.\n5.Transfer Certificate/School Leaving Certificate\n 6.Migration Certificate\n 7.Community Certificate (For SC/ST only).\n 8.Nativity Certificate (For candidates hailing from Jammu and Kashmir, Ladhak and the North Eastern states).\n\n Additional Documents required from NRI/Foreign Students: \n 1. Passport Copy (Student & Parent)\n 2.Employer Certificate (original)\n 3.Sponsorship letter (original). \n\n All copies of documents will be archived and will not be returned for any reason. "]
+  },
+  {
+  "tag": "library",
+  "patterns": ["is there any library",
+              "library facility",
+              "library facilities",
+              "do you have library",
+              "does the college have library facility",
+              "college library",
+              "where can i get books",
+              "book facility",
+              "Where is library",
+              "Library",
+              "Tell me about library",
+              "how many libraries"],
+  "responses": ["The Central library spreads over an area of 7770 sq m with six floors (Excluding ground floor). It has specialized collections of books, journals & other resources in Mathematics & Sciences, Engineering and Technology, Biotechnology, Humanities, Social Sciences and Management ranging from printed books, e-books, back volumes and CDs/DVDs. The Central Library subscribes to national and international journals in print and e-Journals. The library has a video conferencing facility and NPTEL video courses, ePGpathashala, Swayam Programme and other E-Learning resources initiated by the Government of India. Central Library is using Koha software for Library automation and has implemented RFID technology with self-issue and return kiosk, WEB-OPAC (Online Public Access Catalogue), and online renewal facility.\n\n Services:\n 1.Circulation Service \n2.Reference Service \n3.Web OPAC (On-line Public Access Catalogue) \n4.Study Book Service \n5.STARS Book Bank \n6.Resource Sharing (Inter Library Loan) \n7.Multimedia Resource Service \n8.On-line Databases\n9.NPTEL e-Learning Facility.\n10.User Education Program \n11.Tele / Video Conferencing\n\n Membership:\n All students, faculty members and staff of the institute are membership of the library.\n\n For more information pleas visit: https://vit.ac.in/academics/library "]
+  }, 
+  {
+  "tag": "syllabus",
+  "patterns": ["Syllabus for IT",
+              "what is the Information Technology syllabus",
+              "syllabus",
+              "timetable",
+              "what is IT syllabus",
+              "syllabus",
+              "What is next lecture"],
+  "responses": ["Syllabus of all years and departments is available in the link below.https://vit.ac.in//faculty/2/computing#lap251 "]
+  },
+  {
+  "tag": "canteen",
+  "patterns": ["food facilities",
+              "canteen facilities",
+              "canteen facility",
+              "is there any canteen",
+              "Is there a cafetaria in college",
+              "Does college have canteen",
+              "Where is canteen",
+              "where is cafetaria",
+              "canteen",
+              "Cafetaria"],
+  "responses": ["vit has canteen with variety of food available."]
+  },
+  {
+  "tag": "menu",
+  "patterns": ["food menu",
+              "food in canteen",
+              "Whats there on menu",
+              "what is available in college canteen",
+              "what foods can we get in college canteen"],
+  "responses": ["The college canteen serves Tea, Coffee, Vada Pav, Misal Pav, Bread Pakoda, Thaali, Samosa, Dal Rice, Biryani and many more dishes."]
+  },
+  {
+  "tag": "placement",
+  "patterns": ["What is college placement",
+              "Which companies visit in college",
+              "What is average package",
+              "companies visit",
+              "package",
+              "placement",
+              "recruitment",
+              "companies"],
+  "responses": ["Various companies are coming to recruite our students and offer maximum packages. For more information visit https://vit.ac.in/ ",
+              "Our college oragnise various activities related to placements.For latest update visit https://vit.ac.in/ "]
+  },
+  
+  {
+  "tag": "salutaion",
+  "patterns": ["okk",
+              "okie",
+              "nice work",
+              "well done",
+              "good job",
+              "thanks for the help",
+              "Thank You",
+              "its ok",
+              "Thanks",
+              "k",
+              "ok",
+              "okay"],
+  "responses": ["I am glad I helped you",
+               "I am very happy to help you ",
+               "welcome, anything else i can assist you with?"]
+  },
+                
+  {
+  "tag":"ragging",
+  "patterns":["ragging",
+             "is ragging practice active in college",
+             "does college have any antiragging facility",
+             "is there any ragging cases",
+             "is ragging done here",
+             "ragging juniors",
+             "ragging history",
+             "ragging incidents"],
+  "responses": ["We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"]
+  },
+                          
+  
+  {
+  "tag":"scholarship",
+  "patterns":["scholarship",
+             "Is scholarship available",
+             "scholarship engineering",
+             "scholarship fe",
+             "scholarship se",
+             "scholarship te",
+             "scholarship be",
+             "available scholarships",
+             "scholarship for computer engineering",
+             "scholarship for automobile engineering",
+             "scholarship for IT engineering",
+             "scholarship for mechanical engineering",
+             "scholarship for civil engineering",
+             "scholarship for extc engineering",
+             "scholarship for electrical engineering",
+             "list of scholarship",
+             "comps scholarship",
+             "IT scholarship",
+             "mechanical scholarship",
+             "civil scholarship",
+             "electrical scholarship",
+             "extc scholarship",
+             "automobile scholarship",
+             "first year scholarship",
+             "second year scholarship",																				
+             "third year scholarship",
+             "fourth year scholarship"],
+  "responses":["Many government scholarships are supported by vit. For details and updates visit  https://vit.ac.in/"]
+  },
+                          
+  {
+  "tag":"faculty",
+  "patterns":["faculty",
+             "faculty details",
+             "computer faculty",
+             "IT faculty",
+             "mechanical faculty",
+             "automobile faculty",
+             "extc faculty",
+             "electrical faculty",
+             "civil faculty",
+             "engineering faculty",
+             "list of faculty",
+             "first year faculty",
+             "second year faculty",
+             "third year faculty",
+             "fourth year  faculty",
+             "give faculty details",
+             "tell me about the faculty",
+             "how is the faculty",
+             "staff",
+             "please give information about faculty",
+             "faculty information",
+             "faculty?"],
+  "responses":["vit has a highly qualified and experienced faculty. For details visit  https://vit.ac.in/ "]
+  },
+                                  
+  {
+  "tag":"student portal",
+  "patterns":["student portal",
+             "give student portal link",
+             "student portal?",
+             "where is student portal",
+             "vit student portal",
+             "how to get student portal",
+             "where to get fees receipt",
+             "please provide student portal link",
+             "where to login"],
+  "responses":["After registration students will get their password for the student website through their VIT mail"]
+                          
+  },
+                          
+  
+                          
+  {
+  "tag":"sports",
+  "patterns":["sports and games",
+             "give sports details",
+             "sports infrastructure",
+             "sports facilities",
+             "vit sports facilities",
+             "information about sports",
+             "please provide sports and games information" ],
+  "responses":["vit encourages all-round development of students and hence provides sports facilities "]
+  },
+                          
+  {
+  "tag":"fest",
+  "patterns":["fests",
+             "college fest",
+             "euforia",
+             "tech euforia",
+             "vit fests",
+             "information fest",
+             "please provide fests information",
+             "euforia information",
+             "tech euforia information",
+             "tell me about college fests",
+             "tell me about tech euforia",
+             "tell me about euforia",
+             "information euforia",
+             "please provide euforia information",
+             "please provide tech euforia information",
+             "tech euforia details",
+             "euforia details",
+             "give me euforia details",
+             "give me tech euforia details",
+             "give me fests details",
+             "fests?"],
+  "responses":["vit encourages all-round development of students and hence organizes vibrant fests. For more details visit https://vit.ac.in//list/9/events" ]
+  }
+]}
+
+
